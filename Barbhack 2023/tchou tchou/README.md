@@ -57,7 +57,7 @@ Avec le résultat, il crée la payload utilisée pour exploiter la CVE-2019-5420
 
 J'ai lancé la commande : *ls /home/demoniac/* pour identifier le dossier et une fois la commande exécutée, j'ai attendu que le serveur redémarre pour contourner la mise en cache. Puis j'ai relancé la CVE-2019-5418 pour récupérer le fichier d'output de la commande (*/tmp/results*) :
 
-
+![](./images/9.png)
 
 Le dossier identifié, on refait toute la procédure (avec la race condition) pour pouvoir faire un *cat flag.txt*.
 
