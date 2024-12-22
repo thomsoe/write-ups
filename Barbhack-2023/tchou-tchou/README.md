@@ -1,6 +1,6 @@
 # Tchou-tchou
 
-Ceci est le writeup du challenge tchou-tchou proposé au ctf de la Barbhack 2023. Il a été créé par mpgn à qui on doit le crackmapexec d'aujourd'hui qund même je tiens à le rappeler car c'est quelqu'un.
+Ceci est le writeup du challenge tchou-tchou proposé au ctf de la Barbhack 2023. Il a été créé par mpgn à qui on doit le crackmapexec d'aujourd'hui.
 
 ## Compréhension du challenge
 Le challenge est composé d'une unique page Web :
@@ -65,4 +65,4 @@ Le dossier identifié, on refait toute la procédure (avec la race condition) po
 ![](./images/11.png)
 
 ### Note sur le setup
- J'ai perdu beaucoup de temps sur l'installation de Ruby dû à des problèmes d'incompatibilité avec la versions que j'avais et celle utilisée par le PoC (j'aurais pu être first blood sur un chall qui tombe au ctf depuis 3 ans ptn). Si vous voulez réutiliser le PoC, je vous conseille donc de désinstaller votre version Ruby et de réinstaller la version via *rbenv install 2.5.1* puis finir avec *bundle install --gemfile=demo-5.2.1/Gemfile*.
+ J'ai perdu beaucoup de temps sur l'installation de Ruby dû à des problèmes d'incompatibilité avec la versions que j'avais et celle utilisée par le PoC (j'aurais pu être first blood sur ce chall). Si vous voulez réutiliser le PoC, je vous conseille donc de désinstaller votre version Ruby et de réinstaller la version via *rbenv install 2.5.1* puis finir avec *bundle install --gemfile=demo-5.2.1/Gemfile*.
